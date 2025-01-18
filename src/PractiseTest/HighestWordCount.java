@@ -7,11 +7,12 @@ public class HighestWordCount {
 
     public static void main(String[] args){
 
-        highestWordCount("My name is Sam, My wife's name is Divu.");
+        highestWordCount("My name is Sam, My wife's name is Divu."+ "\n" +" she is very good");
     }
 
     public static void highestWordCount(String text){
 
+        System.out.println(text);
         text = text.replaceAll("[^a-zA-Z ]", "").toLowerCase();
         System.out.println(text);
 
