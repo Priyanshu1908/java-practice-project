@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class HighestOccurredWord {
     public static void main(String[] args) {
-        String text = "This is a test. This test is only a test.";
+        String text = "This is a test. This test is only a Test.";
         String result = highestOccurrence(text);
         System.out.println(result);
     }

@@ -1,4 +1,4 @@
-package PractiseTest;
+package BasicConcepts;
 
 public class StaticBlockWithFinal {
 
