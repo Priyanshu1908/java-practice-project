@@ -4,6 +4,8 @@ import FinalFinallyFinalize.ParentClass;
 
 public class ParentSuperClass {
 
+    int x=20;
+
     ParentSuperClass(){
         System.out.println("Inside parent super class default constructor");
     }

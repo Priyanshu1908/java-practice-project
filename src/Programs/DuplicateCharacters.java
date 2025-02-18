@@ -7,7 +7,7 @@ import java.util.Set;
 public class DuplicateCharacters {
 
     public static void main(String[] args){
-        duplicateCharacters("Java");
+        duplicateCharacters("Java is the best language to learn");
     }
 
     public static void duplicateCharacters(String s){

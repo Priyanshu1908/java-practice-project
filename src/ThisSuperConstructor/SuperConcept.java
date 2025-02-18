@@ -4,6 +4,7 @@ public class SuperConcept extends ParentSuperClass{
 
     SuperConcept(){
         super();
+        System.out.println(super.x);
         System.out.println("Inside child super class default constructor");
     }
     SuperConcept(int x){

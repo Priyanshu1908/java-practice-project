@@ -4,7 +4,7 @@ public abstract class AbstractionConcept {
 
     //partial abstraction can be achieved by the abstract class
     //Abstract class can have abstract method as well as non abstract method
-    // we can declare all types of variable in abstract class
+    // we can declare public static and final variable in abstract class
     //It can have its own method implementation
 
     int x = 10;
