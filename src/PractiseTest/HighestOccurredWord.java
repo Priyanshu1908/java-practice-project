@@ -22,7 +22,7 @@ public class HighestOccurredWord {
         int maxCount = 0;
 
         for(Map.Entry<String,Integer> entry : duplicateWordMap.entrySet()){
-            if(entry.getValue()>1){
+            if(entry.getValue()>maxCount){
                 maxWord = entry.getKey();
                 maxCount = entry.getValue();
             }

@@ -1,9 +1,9 @@
-// Online Java Compiler
+package Programs;// Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 import java.util.Random;
 import java.util.*;
 
-class Test {
+class RandomNumbersAndMeanToFindNumbersInRange {
 
     public static int num =0;
     public static int sum = 0;
