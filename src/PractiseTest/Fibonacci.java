@@ -22,6 +22,7 @@ public class Fibonacci {
             System.out.println(n3);
         }
 
+        //Another approach
         fibonacci(x);
     }
 
