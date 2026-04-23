@@ -4,6 +4,7 @@ public class AxisBank extends RBIBank implements USBank,UKBank{ //multiple inher
 
     //Is-a relationship
     //If a class is implementing the Interface then it must define or override all the methods from the Interface
+
     //USBank method Implementation
     public void credit() {
         System.out.println("Axis - Credit");
@@ -11,12 +12,15 @@ public class AxisBank extends RBIBank implements USBank,UKBank{ //multiple inher
     public void debit() {
         System.out.println("Axis - Debit");
     }
+
+    //Class methods
     public void chequeBook(){
         System.out.println("Axis - ChequeBook");
     }
     public void passBook(){
         System.out.println("Axis - PassBook");
     }
+
     //UKBank method Implementation
     public void homeLoan() {
         System.out.println("Axis - Home Loan");
@@ -24,9 +28,13 @@ public class AxisBank extends RBIBank implements USBank,UKBank{ //multiple inher
     public void carLoan() {
         System.out.println("Axis - Car Loan");
     }
+
+    //Parent interface WorldBank method implementation
     public void globalLoan() {
         System.out.println("Axis -- Global Loan");
     }
+
+    //Method overriding
     public void goldLoan(){
         System.out.println("Axis -- Gold Loan");
     }

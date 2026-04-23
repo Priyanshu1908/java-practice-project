@@ -7,9 +7,9 @@ public class ArrayListConcepts {
 
     public void arrayList() {
 
-        Employee e1 = new Employee("Nitin", 123, "Tester");
+        Employee e1 = new Employee("Nitin", 123, "Engineer");
         Employee e2 = new Employee("Mukul", 135, "Designer");
-        Employee e3 = new Employee("Priyanshu", 138, "Tester");
+        Employee e3 = new Employee("Priyanshu", 138, "Analyst");
         ArrayList<Employee> ar = new ArrayList();
         ar.add(e1);
         ar.add(e2);
