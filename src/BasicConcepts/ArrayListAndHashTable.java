@@ -53,7 +53,7 @@ public class ArrayListAndHashTable {
         Hashtable<Integer,String> ht1 = new Hashtable<>();
         ht1.put(0, "Priyanshu");
         ht1.put(1,"Rathore");
-        //ht1.put("invalid","and");
+        //ht1.put("invalid",2);
         for(int i = 0;i<ht1.size();i++){
             System.out.println(ht1.get(i));
         }

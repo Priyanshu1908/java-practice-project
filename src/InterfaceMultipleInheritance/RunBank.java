@@ -21,7 +21,7 @@ public class RunBank {
         //method implemented from parent Interface WorldBank of child Interface USBank
         bank.globalLoan();
 
-        //method overridden from parent class
+        //method overridden of parent class RBIBank
         bank.goldLoan();
 
         //static method from Interface can be called in a static way
@@ -37,6 +37,9 @@ public class RunBank {
         System.out.println(UKBank.minBal);
         uk.homeLoan();
         uk.carLoan();
+
+        WorldBank wb = new AxisBank();
+        wb.globalLoan();
 
         RBIBank rbi = new AxisBank();
         rbi.goldLoan();

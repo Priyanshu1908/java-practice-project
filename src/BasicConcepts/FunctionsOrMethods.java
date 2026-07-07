@@ -5,10 +5,10 @@ public class FunctionsOrMethods {
     public static void main(String[] args){
 
         //We can't create method inside a method
-        //non-static methods are called by class reference or by creating an object of a class
+        //non-static methods are called by creating an object of a class
         FunctionsOrMethods obj = new FunctionsOrMethods();
         obj.testMethod();
-        int sum = obj.sum();
+        int sum = sum(); //static method can be called directly or by class reference
         System.out.println("Sum is: " + sum);
         String s1 = obj.string();
         System.out.println("String is: " + s1);
@@ -27,7 +27,7 @@ public class FunctionsOrMethods {
      * no input but some output
      * @return int c
      */
-    public int sum(){
+    public static int sum(){
         int a = 10;
         int b = 20;
         int c = a + b;
