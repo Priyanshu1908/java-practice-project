@@ -2,7 +2,12 @@ package PractiseTest;
 
 public class RightTriangle {
 
-    static int row = 6;
+    /*  *
+        * *
+        * * *
+        * * * *
+        * * * * *  */
+    static int row = 5;
 
     public static void main(String[] args) {
 
