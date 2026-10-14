@@ -13,7 +13,7 @@ public class AgeGroupFinder {
         }
         else if(age>=60){
             System.out.println("You are senior citizen");
-        }else if(age >=20){
+        }else if(age >=18){
             System.out.println("You are an adult");
         } else if (age>=13) {
             System.out.println("You are a teenager");
