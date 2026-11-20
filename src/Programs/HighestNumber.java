@@ -24,11 +24,13 @@ public class HighestNumber {
         System.out.print("Enter your third number is: ");
         int c = scanner.nextInt();
 
-        if (a >= b && a >= c) {
+        if (a == b && b == c) {
+            System.out.println("All are equal");
+        } else if (a >= b) {
             System.out.println(a + " is highest number");
-        } else if (b >= c) {
+        } else if(b >= c){
             System.out.println(b + " is highest number");
-        } else {
+        } else{
             System.out.println(c + " is highest number");
         }
         scanner.close();
